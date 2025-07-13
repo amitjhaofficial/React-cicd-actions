@@ -1,6 +1,6 @@
 name: Greeting Action
 description: A GitHub Action that greets the user.
-on: push
+on: [push]
 jobs:
   greet:
     runs-on: ubuntu-latest
