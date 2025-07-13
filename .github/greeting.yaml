@@ -1,0 +1,9 @@
+name: Greeting Action
+description: A GitHub Action that greets the user.
+on: push
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet the user
+        run: echo "Hello Amit! Welcome to GitHub Actions."
